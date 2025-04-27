@@ -9,6 +9,7 @@ from aiogram.fsm.state import StatesGroup, State
 TOKEN = '7735194034:AAHvaLquKVm4I1QpdjVx5J5YOCqlGAMJDBk'
 ADMIN_ID = 7455246670
 GROUP_ID = -1002554033993
+WEBHOOK_URL = 'https://my-tg-bot-8mcp.onrender.com/webhook'  # URL вебхука
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
