@@ -6,9 +6,9 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 
 # Конфигурация
-TOKEN = 'тг токен'
+TOKEN = '7735194034:AAHvaLquKVm4I1QpdjVx5J5YOCqlGAMJDBk'
 ADMIN_ID = 7455246670
-GROUP_ID = -1002535726838
+GROUP_ID = -1002554033993
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
