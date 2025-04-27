@@ -121,7 +121,7 @@ async def main():
     app.router.add_post('/webhook', webhook)  # Обработка вебхуков от Telegram
 
     # Получаем порт из переменной окружения
-    port = int(os.environ.get("PORT", 8080))  # Если переменная не задана, используется порт 8080
+    port = int(os.environ.get("PORT", 10000))  # Если переменная не задана, используется порт 8080
     print(f"Сервер запущен на порту {port}")
 
     # Запуск сервера
